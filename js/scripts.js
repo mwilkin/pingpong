@@ -4,6 +4,8 @@
 $(document).ready(function() {
   $("form#numInput").submit(function(event) {
     event.preventDefault();
+  $("ul#list").empty();
+
     var input = parseInt($("input#numberInput").val());
     var result = pingPong(input);
     result.forEach(function(result) {
