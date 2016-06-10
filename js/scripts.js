@@ -6,23 +6,25 @@ $(document).ready(function() {
     event.preventDefault();
     var input = parseInt($("input#numberInput").val());
     var result = pingPong(input);
-    $("ul#list").append("<li>" + resultPong + "</li>");
+    result.forEach(function(result) {
+      $("ul#list").append("<li>" + result + "</li>");
+    });
   });
 });
 
 // Backend logic
 var pingPong = function(input) {
-  var resultPong = [];
+  var resultPongs = [];
   for (var index = 1; index <= input; index++) {
     if (index % 15 === 0) {
-      resultPong.push("pingpong");
+      resultPongs.push("pingpong");
     } else if (index % 5 === 0) {
-      resultPong.push("pong");
+      resultPongs.push("pong");
     } else if (index % 3 === 0) {
-      resultPong.push("ping");
+      resultPongs.push("ping");
     } else {
-      resultPong.push(index);
+      resultPongs.push(index);
     }
   }
-  return resultPong;
+  return resultPongs;
 };
