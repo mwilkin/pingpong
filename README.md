@@ -11,15 +11,32 @@
 #####_Please utilize the link following to navigate to a live version of the site on GitHub Pages._
 
 #### <http://mwilkin.github.io/independent_wk-/>
-<!-- this link isn't working and I'm not sure why -->
 
-####_This project utilizes CSS and Bootstrap to build styles and functionality into a simple website._
+
+####_This project utilizes CSS, Bootstrap, and jQuery to build styles and functionality into a simple website._
+
+#### Program Specifications
+
+#####Behavior
+  *It can count up to the provided number.
+    *Example Input: 10
+    *Example Output: [1,2,3,4,5,6,7,8,9,10]
+
+  
+
+
+
+
+
+
+
+
+
 
 #### Setup/Installation Requirements
 
 1. _copy URL address_
 2. _paste in browser of your choice_
-3. _open you favorite libation_
 
 #### Technologies Used
 
@@ -28,6 +45,10 @@
 ##### CSS
 
 ##### Bootstrap
+
+##### jQuery
+
+##### Javascript
 
 #### Known Bugs
 
