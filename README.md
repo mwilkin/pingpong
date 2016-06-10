@@ -10,7 +10,7 @@
 
 #####_Please utilize the link following to navigate to a live version of the site on GitHub Pages._
 
-#### <http://mwilkin.github.io/independent_wk-/>
+#### <http://mwilkin.github.io/pingpong/>
 
 
 ####_This project utilizes CSS, Bootstrap, and jQuery to build styles and functionality into a simple website._
