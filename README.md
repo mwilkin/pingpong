@@ -19,26 +19,28 @@
 
 #####Behavior
   * It can count up to the provided number.
-
     * Example Input: 10
-
     * Example Output: [1,2,3,4,5,6,7,8,9,10]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  * It can divide the provided number by 3 and insert "ping" for each instance.
+    * Example Input: 10
+    * Example Output: [1,2,ping,4,5,6,7,8,ping,10]
+  * It can divide the provided number by 5 and insert "pong" for each instance.
+    * Example Input: 15
+    * Example Output: [1,2,3,4,ping,6,7,8,9,pong,11,12,13,14,pong]
+  * It can divide the provided number by 15 and insert "pingpong" for each instance.
+    * Example Input: 35
+    * Example Output: [1,2,3,4,5,6,7,8,9,5,11,12,13,14,pingpong,16,17,18,19,...,29,pingpong,31,32,33,34,35]
+  * It can take new inputs.
+    * Example Input: 15
+    * Example Output: [1,2,ping,4,ping,ping,7,8,ping,pong,11,ping,13,14,pingpong]
+    * Example Input: 25
+    * Example Output: [1,2,ping,4,ping,ping,7,8,ping,pong,11,ping,13,14,pingpong,16,17,ping,19,pong,ping,22,23,ping,pong]
+  * It will not take a negative number.
+    * Example Input: -5
+    * Example Output: "Error, please enter a number in the acceptable range."
+    * It will only accept numbers as valid inputs.
+      * Example Input: happy
+      * Example Output: "Error, please enter a number in the acceptable range."  
 
 #### Setup/Installation Requirements
 
